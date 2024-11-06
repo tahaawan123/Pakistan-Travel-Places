@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+
+img {
+  width: 200px;
+  margin-left: 50px;
+}
+
+li {
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.image1 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  border-bottom: 6px;
+}
+
+.heading {
+  position: absolute;
+  bottom: 200px;
+  color: white;
+  font-size: xx-large;
+  width: 500px;
+}
+
+.button {
+  display: flex;
+  position: absolute;
+  bottom: 100px;
+  color: white;
+  margin-left: 50px;
+}
+
+.call {
+  margin-right: 20px;
+  background-color: rgb(14, 209, 76);
+  padding: 20px;
+  border-radius: 20px;
+  width: 100px;
+}
+.call:hover{
+  background-color: rgb(95, 151, 12);
+}
+.whatsapp {
+  margin-right: 20px;
+  background-color: rgb(174, 155, 14);
+  padding: 20px;
+  border-radius: 20px;
+  width: 100px;
+  
+}
+.whatsapp:hover{
+  background-color: rgb(208, 208, 9);
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: rgb(82, 82, 211);
+  margin: 0;
+  padding: 30px;
+  color: white;
+}
+
+.heading2 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.image2 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tours-Section {
+  position: relative;
+  z-index: -1;
+  
+}
+
+/*  1st place of tour*/
+
+.location-1st-tour {
+  height: 370px;
+  width: 300px;
+  position: absolute;
+
+  top: 100px;
+  background-color: white;
+
+  left: 200px;
+  text-align: center;
+}
+
+.tours-price {
+  font-weight: 900;
+  color: rgb(97, 97, 182);
+  font-size: larger;
+}
+
+.tour-place-name {
+  width: 150px;
+  font-weight: 700;
+}
+
+.tour-1st-image {
+  width: 300px;
+  margin: 0;
+}
+
+/*  2ndplace of tour*/
+ 
+.location-2nd-tour {
+  height: 380px;
+  width: 300px;
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  background-color: white;
+
+  text-align: center;
+}
+
+.tour-2nd-image {
+  width: 300px;
+  margin: 0;
+}
+
+/*  3rd place of tour*/
+
+.location-3rd-tour {
+  height: 370px;
+  width: 300px;
+  position: absolute;
+  bottom: 50px;
+  left: 200px;
+  background-color: white;
+
+  text-align: center;
+}
+
+.tour-3rd-image {
+  width: 300px;
+  margin: 0;
+}
+
+/*  4rth place of tour*/
+
+.location-4rth-tour {
+  height: 390px;
+  width: 300px;
+  position: absolute;
+  bottom: 50px;
+  right: 200px;
+  background-color: white;
+
+  text-align: center;
+}
+
+.tour-4rth-image {
+  width: 300px;
+  margin: 0;
+}
+
+   /* 1st public Tour */
+.pub{
+    position: absolute;
+    color: white;
+    background-color: rgb(111, 178, 12);
+    padding: 10px;
+    width: 100px;
+    top: 100px;
+    left: 180px;
+}
+   /* 2nd public Tour */
+   .public{
+    position: absolute;
+    color: white;
+    background-color: rgb(111, 178, 12);
+    padding: 10px;
+    width: 100px;
+    top: 100px;
+    right: 400px;
+}
+      /* Upcoming */
+.coming-1st{
+  
+  position: absolute;
+    color: white;
+    background-color: rgb(111, 178, 12);
+    padding: 10px;
+    width: 100px;
+    bottom: 350px;
+    left: 180px;
+}
+
+     
+.coming-2nd{
+  
+  position: absolute;
+    color: white;
+    background-color: rgb(111, 178, 12);
+    padding: 10px;
+    width: 100px;
+    bottom: 350px;
+    right: 400px;
+}
+
+.travel-Quote{
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: rgb(82, 82, 211);
+}
+
+.Custom-Quote{
+  font-size: xx-large;
+  color: white;
+  
+}
+
+.Corporate-tours{
+  margin-top: 40px;
+  width: 150px;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  color: rgb(82, 82, 211);
+}
+.family-tours{
+  margin-top: 40px;
+  width: 150px;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  color: rgb(82, 82, 211);
+
+}
+
+/* valley */
+img{
+  margin: 0;
+  padding: 0;
+flex-wrap: wrap;
+
+
+}
+
+.valley{
+  position: relative;
+  margin-left: 60px;
+  
+}
+.neelam{
+  position: absolute;
+ bottom: 50px;
+ left: 30px;
+ font-size:x-large;
+ font-weight: 800;
+ color: white;
+ 
+}
+.sakardu{
+  position: absolute;
+  bottom: 50px;
+  left: 210px;
+  font-size:x-large;
+  font-weight: 800;
+  color: white;
+}
+.shogran{
+  position: absolute;
+  bottom: 50px;
+  left: 410px;
+  font-size:x-large;
+  font-weight: 800;
+  color: white;
+}
+.hunza{
+  position: absolute;
+  bottom: 50px;
+  right:  430px;
+  font-size:x-large;
+  font-weight: 800;
+  color: white;
+}
+.fairy{
+  position: absolute;
+  bottom: 50px;
+  right: 200px;
+  font-size:x-large;
+  font-weight: 800;
+  color: white;
+}
+
+
+.footerSection{
+  background-color: darkslategrey;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+
+
